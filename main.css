@@ -765,7 +765,7 @@ background-image: linear-gradient(to top, black 0%, #00BFBA 100%);
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
-  color: #f300b4;
+  color: black;
 }
 
 
@@ -878,7 +878,7 @@ background-image: linear-gradient(to top, #00BFBA 0%, #00BFBA 100%);
 .mail .at, .mail .dot {
   font-size: .9rem;
   margin: 0 .1rem;
-  color: #f300b4;
+  
 }
 
 
