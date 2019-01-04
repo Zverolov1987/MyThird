@@ -684,7 +684,7 @@ background-image: linear-gradient(to top, black 0%, #00BFBA 100%);
   position: relative;
   background: #f0f0f0;
   background: linear-gradient(215deg, #f0f0f0 0%,#00BFBA 100%);
-  margin-top: -10rem;
+  margin-top: -12rem;
   z-index: 1;
 }
 
