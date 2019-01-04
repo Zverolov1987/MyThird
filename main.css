@@ -1004,3 +1004,32 @@ footer .wrapper {
 #training{
 font-size:120%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tiles {
+	padding: 3% 5%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+  position: relative;
+  
+}
+.tile {
+  
+	margin: 15px;
+	cursor: pointer;
+	overflow: hidden;
+	width: 18vw;
+  height: 21vw;}
