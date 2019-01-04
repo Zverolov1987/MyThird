@@ -967,7 +967,7 @@ footer .wrapper {
   display: inline-block;
   position: relative;
   overflow: hidden;
- padding: 2%;
+  padding: 2%;
 }
 
 .btn-fancy:hover {
@@ -977,7 +977,7 @@ footer .wrapper {
 .btn-fancy:after {
   content: "";
   position: absolute;
-  transition: all 0.3s ease 0s;
+  transition: all 0.9s ease 0s;
   background: none repeat scroll 0 0 #ffffff;
   height: 0%;
   left: 50%;
@@ -988,7 +988,8 @@ footer .wrapper {
 }
 
 .btn-fancy:hover:after {
-  height: 400%;
+  height: 700%;
+  
 }
 
 
