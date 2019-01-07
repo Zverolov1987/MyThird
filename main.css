@@ -577,8 +577,8 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
   background: #fafafa;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 2;
-  background-image: url(images/fonWr2.jpg);
-  background-size: cover;
+  background-image: url(images/fonWr3.jpg);
+  
  /* background: #00BFBA center right no-repeat; */
   background-attachment: fixed;
   
@@ -827,8 +827,12 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
  *****************/
 
 #contact {
-  background: #00BFBA no-repeat right;
-  background-image: linear-gradient(to top, #00BFBA 0%, #00BFBA 100%);
+ /* background: #00BFBA no-repeat right;
+  background-image: linear-gradient(to top, #00BFBA 0%, #00BFBA 100%); */
+
+  background-image: url(images/wrEnd2.jpg);
+  background-size: cover;
+
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
   min-height: 100vh;
@@ -973,7 +977,7 @@ footer .wrapper {
   text-align: center;
   line-height: 43px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #fff !important;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -981,7 +985,8 @@ footer .wrapper {
 }
 
 .btn-fancy:hover {
-  color: #999;
+  color: black !important;
+  font-weight: 999;
 }
 
 .btn-fancy:after {
