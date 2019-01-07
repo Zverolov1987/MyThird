@@ -39,7 +39,7 @@
     <div className={`menu-container ${props.showMenu}`}>
       <div className="overlay" />
       <div className="menu-items">
-        <ul>
+        <ul><br />
           <li>
             <a href="#welcome-section" onClick={props.toggleMenu}>
               Главная 
@@ -79,9 +79,9 @@ const Nav = props => {
       <nav id="navbar">
         <div className="nav-wrapper">
           <p className="text-white lead">
-            Психологический центр <br />
+            <strong> Белая Комната 
             
-            <strong>Белая Комната</strong>
+            <SocialLinks /></strong>
           </p>
           <a
             onClick={props.toggleMenu}
@@ -104,6 +104,11 @@ const Nav = props => {
 const Header = props => {
   return (
     <header id="welcome-section">
+
+      <video autoPlay loop id="video-background" muted plays-inline>
+        <source src="images/videoFon.mp4" type="video/mp4" />
+      </video>
+
       <div className="forest" />
       <div className="silhouette" />
       <div className="moon" />
@@ -162,7 +167,7 @@ const About = props => {
           <div className="desc full">
            {/**** <h4 className="subtitle">Белая комната</h4> ***/}
 
-           <img className="img-fluid mx-auto d-block" src='images/wrNew.jpg' width= "40%" height="auto"/>
+           <img className="img-fluid mx-auto d-block" src='images/wrNew.jpg' max-width= "100%" height="auto"/>
         <br /><br />
 
             <p>
@@ -449,10 +454,28 @@ const SocialLinks = props => {
         href="https://ok.ru/psychologsaratov"
         target="_blank"
         rel="noopener noreferrer"
-        title="Ссыдка на группу в одноклассники"
+        title="Ссылка на группу в одноклассники"
       >
         {' '}
         <i className="fab fa-odnoklassniki" />
+      </a>
+      <a
+        href="https://www.facebook.com/belayaKomnata/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Ссылка на группу в фейсбук"
+      >
+        {' '}
+        <i className="fab fa-facebook" />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCGYO6BGLtqLhQMxjwSmnUxw"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Ссылка на группу в ютуб"
+      >
+        {' '}
+        <i className="fab fa-youtube" />
       </a>
     </div>
   );
