@@ -445,6 +445,7 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
 /* Copy and CTA */
 #welcome-section .container {
   width: fit-content;
+  width: -moz-fit-content;
   position: absolute;
   right: 0;
   top: 50%;
@@ -487,8 +488,8 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
 
 #welcome-section .container .buttons a,
 #welcome-section .container .buttons a:visited {
-  width: 100%;
-  padding: 1rem;
+  width: 50%;
+  padding: 0.1rem;
   border: 1px solid #fafafa;
   color: #fafafa;
   text-align: center;
@@ -627,7 +628,7 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
 
 #about p {
   padding-bottom: 1.5rem;
-  color: #555;
+  color: black;
   line-height: 1.9rem;
 }
 
@@ -642,7 +643,7 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
   background: #ffffffaa;
   padding: 2rem;
   text-align: justify;
- 
+  
 }
 
 @media only screen and (max-width: 1149px) {
@@ -826,12 +827,14 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
  *****************
  *****************/
 
+
 #contact {
  /* background: #00BFBA no-repeat right;
   background-image: linear-gradient(to top, #00BFBA 0%, #00BFBA 100%); */
 
-  background-image: url(images/wrEnd2.jpg);
+background-image: url(images/wrEnd2.jpg);
   background-size: cover;
+
 
   clip-path: polygon(0 0, 20% 100px, 100% 0, 100% 100%, 0 100%);
   color: #fafafa;
@@ -846,6 +849,8 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
   z-index: 1;
 }
 
+
+
 #contact .container {
   width: 70%;
   max-width: 1200px;
@@ -855,6 +860,7 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
 #contact .container .heading-wrapper {
   display: flex;
   justify-content: space-between;
+  
 }
 
 #contact .heading-wrapper .social a {
@@ -982,6 +988,7 @@ footer .wrapper {
   position: relative;
   overflow: hidden;
   padding: 2%;
+  
 }
 
 .btn-fancy:hover {
@@ -1033,9 +1040,12 @@ i {
 
 footer .wrapper i{
   font-size: 100%;
+  color:black !important;
 }
 
-
+footer .wrapper i:hover{
+color:blue !important;
+}
 
 
 
@@ -1079,3 +1089,40 @@ footer .wrapper i{
       z-index: 0;
       opacity: .7;
     }
+
+
+
+
+
+
+
+    #coleb {
+      -webkit-animation: blurFadeIn 9s ease-in-out 0s infinite;
+      -moz-animation: blurFadeIn 9s ease-in-out 0s infinite;
+      -ms-animation: blurFadeIn 9s ease-in-out 0s infinite;
+      animation: blurFadeIn 9s ease-in-out 0s infinite;
+    }
+    @keyframes blurFadeIn {
+      0% {
+        transform: translate3d(0, -15%, 0);
+      }
+      50% {
+        transform: translate3d(0, 15%, 0);
+      }
+      100% {
+        transform: translate3d(0, -15%, 0);
+      }
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
