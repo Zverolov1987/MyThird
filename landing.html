@@ -19,6 +19,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script> 
 
 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+
+
 </head>
 <body>
 
@@ -444,20 +450,32 @@ const Contact = props => {
               по номеру 8(8452)93-97-30 <br />
               или пишите в Viber 8-917-205-22-50 Юлия Колесниченко
               </span></p>
-              <br /><br />
               
-                 
-
-<a target="_blank" href="http://psychologsaratov.ru/kontakty" className="btn-fancy mx-auto d-block">
-  забронировать время  <i className="far fa-clock"></i>
-</a>
-
-
+              <br /> <br />
+            
+            <a target="_blank" href="http://psychologsaratov.ru/kontakty" className="btn-fancy mx-auto d-block">
+                     забронировать время  <i className="far fa-clock"></i>
+                   </a>
+                   <br /> <br />
+           <h1 className="title animated flash" id="yourElement">
+       Узнай как мечтать что бы сбывалось</h1> 
        
+       <br /><br /> <br />
+  <a href="javascript:doPopup('https://www.youtube.com/embed/WYcgrNMfl6Q?rel=0')"> 
+
+<img className="img-fluid" src='images/owl.png' width= "30%" height="auto" id="owl"/>
+
+</a> 
+
+      
           </div>
           <SocialLinks />
         </div>
-        
+       
+       
+
+       
+
       </div>
     </section>
   );
@@ -760,7 +778,7 @@ ReactDOM.render(<Gallery data={data}/>, document.querySelector('.gallery4'));
 
 
 
-
+{/*
 
 // INFINITY SCROLL
 var windowHeight = $(window).height();
@@ -814,15 +832,26 @@ $(window).resize(function() {
 
 
 
-
+*/}
 
 
 
 /*****************************/
 
 
+
         
         </script>
+
+
+
+
+
+<script language="javascript">  
+function doPopup(popupPath) {  
+window.open(popupPath,'name',  
+'width=570,height=570,scrollbars=NO,left=350,top=100'); }
+</script>
 
 
 </body>
