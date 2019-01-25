@@ -801,6 +801,9 @@ background-image: linear-gradient(to top, grey 0%, #00BFBA 100%);
   font-size: 70%;
 }
 
+#projects .review{
+  font-size: 80% !important;
+}
 
 
 @media only screen and (max-width: 1149px) {
@@ -1410,7 +1413,7 @@ transition:all 1s ease-out;
   color: black;
   line-height: 1.9rem;
 
-background: linear-gradient(400deg,#00BFBA 15%, black 3%, purple 75%, darkblue 15%);
+background: linear-gradient(350deg,rgb(49, 2, 49) 15%, rgb(27, 5, 5) 3%, rgb(97, 3, 97) 75%, rgb(4, 4, 77) 15%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
